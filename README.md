@@ -76,3 +76,9 @@ The agent takes user input (city, food type, and price level), queries Yelp’s 
 
 The app will open in your browser at `http://localhost:8501`. Enter a city, food type, and price level to get live restaurant recommendations from Yelp.
 
+## What I'd Improve with More Time
+
+- Add filtering options like minimum rating, distance, or “open now”
+- Use an LLM to generate more descriptive summaries for each restaurant
+- Add map integration for better location context
+- Deploy the app for public access (Streamlit Cloud or Hugging Face Spaces)
