@@ -1,7 +1,24 @@
 import streamlit as st
-from yelp_api import search_restaurants
 
-st.title(" YelpMate – Restaurant Recommender")
+st.markdown("""
+    <style>
+    body {
+        background: linear-gradient(to bottom right, #F6F94D, #FFFFFF);
+    }
+    .stApp {
+        background: linear-gradient(to bottom right, #F6F94D, #FFFFFF);
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
+from yelp_api import search_restaurants
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
+
+st.markdown("<h1 style='text-align: center;'>YelpMate</h1>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: gray;'>Restaurant Recommender</h4>", unsafe_allow_html=True)
 
 city = st.text_input("Enter a city:")
 food_type = st.text_input("What kind of food do you want? (e.g. sushi, pizza)")
@@ -37,3 +54,6 @@ if st.button("Find Restaurants"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please enter both city and food type.")
+
+
+

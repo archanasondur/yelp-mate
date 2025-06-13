@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/archanasondur/Desktop/yelp/venv"
+set -gx VIRTUAL_ENV "/Users/archanasondur/Desktop/projects/yelp-mate/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

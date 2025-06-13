@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/archanasondur/Desktop/yelp/venv"
+VIRTUAL_ENV="/Users/archanasondur/Desktop/projects/yelp-mate/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
