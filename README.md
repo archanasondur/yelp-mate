@@ -85,3 +85,6 @@ The app will open in your browser at `http://localhost:8501`. Enter a city, food
 
 
 ⚠️ UI in video demo may differ slightly from the current version due to design improvements after submission.
+
+##  Live Demo
+ [Try YelpMate Now](https://yelp-mategit-mn5ziwwguiecrszu9dgswp.streamlit.app)
