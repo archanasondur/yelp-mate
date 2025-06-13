@@ -82,3 +82,6 @@ The app will open in your browser at `http://localhost:8501`. Enter a city, food
 - Use an LLM to generate more descriptive summaries for each restaurant
 - Add map integration for better location context
 - Deploy the app for public access (Streamlit Cloud or Hugging Face Spaces)
+
+
+⚠️ UI in video demo may differ slightly from the current version due to design improvements after submission.
